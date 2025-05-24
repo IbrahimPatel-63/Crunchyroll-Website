@@ -1,0 +1,1006 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Geologica", sans-serif;
+  color: white;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.first-div {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-image: url("./images/heroimage.png");
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  height: 5rem;
+  width: 100%;
+  background: linear-gradient(to right, black, #0c102193);
+}
+
+.nav-div {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-div h4 {
+  position: relative;
+  bottom: 12px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.nav-div h4:hover {
+  color: white;
+}
+
+.navbar-btn {
+  margin-right: 12rem;
+  display: flex;
+  gap: 5rem;
+}
+
+#login {
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  color: white;
+  background-color: #000000;
+  padding: 10px 30px;
+  position: relative;
+  left: 4.2rem;
+}
+
+#explore {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.824);
+  background-color: transparent;
+  padding: 10px 30px;
+  border: 2px solid rgba(255, 255, 255, 0.824);
+}
+
+#explore:hover {
+  color: white;
+  border: 2px solid white;
+}
+
+.nav-div h4 {
+  font-size: 1.5rem;
+  padding-left: 11.5rem;
+  color: #ff640a;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+#try {
+  padding: 10px 30px;
+  color: black;
+  background-color: #fab818;
+  font-size: 14px;
+  border: none;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+h4 {
+  font-weight: 600;
+  color: #ff640a;
+  margin-top: 1.5rem;
+}
+
+#try i {
+  font-size: 1rem;
+  padding-right: 5px;
+  color: black;
+}
+
+h4 i {
+  color: #ff640a;
+  font-size: 1rem;
+}
+
+.content {
+  margin-left: 13.5rem;
+  margin-top: 4rem;
+}
+
+.content h1 {
+  line-height: 1.2;
+  font-size: 35px;
+}
+
+.content p {
+  margin-top: 1rem;
+  font-size: 15px;
+}
+
+#big-text {
+  font-size: 54px;
+  text-align: center;
+  margin-top: 7.5rem;
+}
+
+#para {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+  color: #ff640a;
+}
+
+#para i {
+  color: #ff640a;
+}
+
+.second-div {
+  height: 70vh;
+  width: 100vw;
+  background-color: black;
+  position: relative;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons p {
+  position: relative;
+  top: 4rem;
+}
+
+.first-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 4rem;
+  left: 35vw;
+  font-size: 3.6rem;
+}
+
+.first-icon i {
+  color: #ff640a;
+}
+
+.second-icon i {
+  color: #2abdbb;
+}
+
+.third-icon i {
+  color: #548094;
+}
+
+.fourth-icon i {
+  color: #fab818;
+}
+
+.second-icon {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 3rem;
+  left: 14vw;
+  font-size: 3.6rem;
+}
+
+.third-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 16rem;
+  left: 33.5vw;
+  font-size: 3.6rem;
+}
+
+.fourth-icon {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 15rem;
+  left: 13vw;
+  font-size: 3.6rem;
+}
+
+.paragraphs {
+  position: absolute;
+}
+
+#para1 {
+  top: 9rem;
+  left: 32vw;
+  position: absolute;
+  font-size: 18px;
+  white-space: nowrap;
+  color: #dadada;
+}
+
+#para3 {
+  top: 21rem;
+  left: 30vw;
+  position: absolute;
+  font-size: 18px;
+  white-space: nowrap;
+  color: #dadada;
+}
+
+#para2 {
+  position: absolute;
+  top: 9rem;
+  left: 12vw;
+  font-size: 18px;
+  white-space: nowrap;
+  color: #dadada;
+}
+
+#para4 {
+  position: absolute;
+  top: 21rem;
+  left: 13vw;
+  font-size: 18px;
+  white-space: nowrap;
+  color: #dadada;
+}
+
+.paragraphs span {
+  position: relative;
+  left: 26px;
+  line-height: 30px;
+}
+
+.left-image {
+  position: absolute;
+  top: 0%;
+  right: 6%;
+  height: 75%;
+  width: 45%;
+  background-image: url("./images/girl.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.third-div {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #fab11a;
+}
+
+.third-div h1 {
+  font-size: 54px;
+  text-align: center;
+  padding-top: 10rem;
+  position: relative;
+  color: #000000;
+}
+
+.boxes {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.third-div .box1 {
+  height: 425px;
+  width: 380px;
+  background-color: #141519;
+  position: relative;
+  left: 5rem;
+  text-align: center;
+}
+
+.third-div .box2 {
+  height: 580px;
+  width: 400px;
+  background-color: #141519;
+  position: relative;
+  bottom: 3.5rem;
+}
+
+.third-div .box3 {
+  height: 580px;
+  width: 380px;
+  background-color: #141519;
+  position: relative;
+  right: 5rem;
+  text-align: center;
+}
+
+.box1 h2 {
+  padding-top: 1.5rem;
+  font-size: 24px;
+}
+
+.box1 p {
+  padding-top: 1.5rem;
+  font-size: 16px;
+}
+
+.box1 :nth-child(3) {
+  position: relative;
+  bottom: 1.2rem;
+}
+
+.box1 button {
+  padding: 10px 60px;
+  color: #ffc94d;
+  background-color: #141519;
+  font-size: 14px;
+  border: 2px solid #ffc94d;
+}
+
+.box1 :nth-child(8) {
+  position: relative;
+  right: 1.5rem;
+}
+
+.box1 :nth-child(7) {
+  position: relative;
+  bottom: 0.4rem;
+  color: white;
+}
+
+.box2 {
+  text-align: center;
+}
+
+/*box two styling*/
+
+.box2 h2 {
+  padding-top: 1.5rem;
+  font-size: 24px;
+}
+
+.box2 p {
+  padding-top: 1.5rem;
+  font-size: 16px;
+}
+
+.box2 :nth-child(3) {
+  position: relative;
+  bottom: 1.2rem;
+}
+
+.box2 button {
+  padding: 10px 60px;
+  color: black;
+  font-weight: 600;
+  background-color: #fab818;
+  font-size: 14px;
+  border: 2px solid #ffc94d;
+}
+
+.box2 :nth-child(8) {
+  position: relative;
+  right: 1.5rem;
+  color: #dc3b2b;
+}
+
+.box2 :nth-child(7) {
+  position: relative;
+  bottom: 0.4rem;
+  color: white;
+}
+
+.box2 :nth-child(4) {
+  position: relative;
+  bottom: 2.5rem;
+}
+
+.box2 :nth-child(9) {
+  position: relative;
+  right: 5px;
+}
+
+.box2 :nth-child(9) span {
+  color: #e9992d;
+}
+
+.box2 :nth-child(10) {
+  position: relative;
+  right: 80px;
+}
+
+.box2 :nth-child(11) {
+  position: relative;
+  right: -18px;
+}
+
+.box2 :nth-child(3) {
+  padding-top: 2.8rem;
+}
+
+.box2 :nth-child(8) {
+  color: white;
+}
+
+.box2 :nth-child(1) {
+  color: #fab818;
+}
+
+.box3 h2 {
+  padding-top: 1.5rem;
+  font-size: 24px;
+}
+
+.box3 p {
+  padding-top: 1.5rem;
+  font-size: 16px;
+}
+
+.box3 :nth-child(3) {
+  position: relative;
+  bottom: 1.2rem;
+}
+
+.box3 button {
+  padding: 10px 60px;
+  color: #ffc94d;
+  font-weight: 600;
+  background-color: #141519;
+  font-size: 14px;
+  border: 2px solid #ffc94d;
+}
+
+.box3 h4 {
+  color: white;
+}
+
+.box3 :nth-child(8) {
+  position: relative;
+  right: 5px;
+}
+
+.box3 :nth-child(8) span {
+  color: #e9992d;
+}
+
+.box3 :nth-child(9) {
+  position: relative;
+  right: 80px;
+}
+
+.box3 :nth-child(10) {
+  position: relative;
+  right: -18px;
+}
+
+.box3 :nth-child(11) {
+  position: relative;
+  right: 4px;
+}
+
+.boxes i {
+  position: relative;
+  right: 1rem;
+  font-size: 12px;
+  color: #d39d18;
+}
+
+.top-image {
+  height: 40%;
+  width: 100%;
+  background-color: lightseagreen;
+  position: absolute;
+  background-image: url("./images/yellow.webp");
+  background-size: cover;
+}
+
+.third-div #para-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 15px;
+  color: black;
+}
+
+.fourth-div {
+  height: 115vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.918));
+}
+
+.fourth-div h1 {
+  font-size: 54px;
+  text-align: center;
+  padding-top: 16rem;
+}
+
+.fourth-div p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 1rem;
+  line-height: 1.5rem;
+}
+
+.fourth-div p span {
+  position: relative;
+}
+
+.top-image2 {
+  height: 35%;
+  width: 100vw;
+  position: absolute;
+  background-image: url("./images/waves.webp");
+  background-size: cover;
+}
+
+.swiper {
+  height: 346px;
+  width: 75%;
+  margin-top: 2rem;
+  margin-left: 11rem;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  height: 80%;
+  width: 100%;
+  color: lawngreen;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rect-angle {
+  height: 100%;
+  width: 180px;
+  box-shadow: 0px 15px 20px rgba(128, 128, 128, 0.362);
+  margin-top: 72px;
+  border-radius: 10px;
+  position: relative;
+  z-index: -1;
+}
+
+#one :nth-child(1) {
+  background-image: url("./images/naruto.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#one :nth-child(2) {
+  background-image: url("./images/tanjiro.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#one :nth-child(3) {
+  background-image: url("./images/haikyuu.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#one :nth-child(4) {
+  background-image: url("./images/relife.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#one :nth-child(5) {
+  background-image: url("./images/one piece.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#two :nth-child(1) {
+  background-image: url("./images/spy.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+#two :nth-child(2) {
+  background-image: url("./images/jjk.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#two :nth-child(3) {
+  background-image: url("./images/aot.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#two :nth-child(4) {
+  background-image: url("./images/aot.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#two :nth-child(5) {
+  background-image: url("./images/relife.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#three :nth-child(1) {
+  background-image: url("./images/a.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#three :nth-child(2) {
+  background-image: url("./images/b.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#three :nth-child(3) {
+  background-image: url("./images/c.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#three :nth-child(4) {
+  background-image: url("./images/d.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#three :nth-child(5) {
+  background-image: url("./images/e.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#four :nth-child(1) {
+  background-image: url("./images/f.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#four :nth-child(2) {
+  background-image: url("./images/g.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#four :nth-child(3) {
+  background-image: url("./images/h.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#four :nth-child(4) {
+  background-image: url("./images/i.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#four :nth-child(5) {
+  background-image: url("./images/j.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#five :nth-child(1) {
+  background-image: url("./images/1.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#five :nth-child(2) {
+  background-image: url("./images/2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#five :nth-child(3) {
+  background-image: url("./images/3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#five :nth-child(4) {
+  background-image: url("./images/4.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#five :nth-child(5) {
+  background-image: url("./images/5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#six :nth-child(1) {
+  background-image: url("./images/lookism.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#six :nth-child(2) {
+  background-image: url("./images/solo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#six :nth-child(3) {
+  background-image: url("./images/fruits.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#six :nth-child(4) {
+  background-image: url("./images/goku.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+#six :nth-child(5) {
+  background-image: url("./images/class.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.fifth-div {
+  height: 100vh;
+  width: 100vw;
+  background-color: crimson;
+  position: relative;
+  background-image: url("./images/bg.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.aero-content {
+  height: 250px;
+  width: 500px;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aero-content h1 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  position: relative;
+  right: 5.5rem;
+  color: #000000;
+}
+
+.aero-content h1 i {
+  color: #000000;
+}
+
+.aero-content p {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 1.5rem;
+  color: #220000;
+  line-height: 1.5;
+}
+
+.people {
+  height: 85%;
+  width: 45%;
+  position: absolute;
+  bottom: 10%;
+  left: 2%;
+  background-image: url("./images/people.webp");
+  background-size: cover;
+}
+
+.crock {
+  height: 45%;
+  width: 34%;
+  position: absolute;
+  bottom: 0;
+  left: 42%;
+  background-image: url("./images/crock.webp");
+  background-size: cover;
+}
+
+.sixth-div {
+  height: 80vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  position: relative;
+}
+
+.sixth1 {
+  height: 100%;
+  width: 50%;
+  /* background-color: purple; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000000;
+  position: relative;
+  left: 3.2rem;
+}
+
+.sixth1 h1 {
+  font-size: 35px;
+  padding-right: 7rem;
+}
+
+.sixth1 h1 i {
+  font-size: 25px;
+}
+
+.sixth1 p {
+  font-size: 20px;
+  padding-top: 1rem;
+}
+
+.sixth2 {
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.inner-sixth2 {
+  height: 60%;
+  width: 80%;
+  background-image: url("./images/warrior.webp");
+  background-size: cover;
+}
+
+.sixth3 {
+  height: 20vh;
+  width: 45vw;
+  position: absolute;
+  bottom: 4rem;
+  right: 8rem;
+  z-index: 10;
+  background-image: url("./images/game.webp");
+  background-size: cover;
+}
+
+.seventh-div {
+  height: 65vh;
+  width: 100vw;
+  background-color: black;
+  padding-top: 2.8rem;
+}
+
+.seventh-div h1 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.seventh-div h4 {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  padding-bottom: 5.8rem;
+}
+
+.seventh-div h4 a {
+  color: #ff5605;
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
+
+.seventh-div h4 a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.seventh-div p {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 10rem;
+}
+
+.seventh-div .anchor-tags {
+  height: 72px;
+  width: 1100px;
+  position: relative;
+  left: 15rem;
+  bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.1px solid #a0a0a0;
+}
+
+.anchor-tags a {
+  margin-left: 1rem;
+  color: #a0a0a0;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.anchor-tags a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.bottom-div {
+  height: 100px;
+  width: 100vw;
+  background-color: black;
+}
+
+.footer {
+  height: 75px;
+  width: 1100px;
+  position: relative;
+  left: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer h2 {
+  font-size: 15px;
+  color: #a0a0a0;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.footer h2:hover {
+  color: white;
+}
+
+.footer-div h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #a0a0a0;
+}
+.footer-div p {
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+.footer-div p i {
+  color: #a0a0a0;
+  font-size: 12px;
+}
