@@ -42,4 +42,4 @@ This is a **Clone of the official Crunchyroll Website** built using **HTML5** an
 
 ## Note
 
-**This project is made for <u>educational purpose only.</u> All rights to the original Crunchyroll content belong to their respective owners **
+**This project is made for <u>educational purpose only.</u> All rights to the original Crunchyroll content belong to their respective owners**
